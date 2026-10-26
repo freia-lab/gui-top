@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<display version="2.0.0">
+  <widget type="action_button" version="3.0.0">
+    <name>Action Button</name>
+    <actions>
+      <action type="open_display">
+        <description>Open Display</description>
+        <file>../../linde/linde-freia-top.bob</file>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text>Liqufier...</text>
+    <x>90</x>
+    <y>430</y>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>Action Button_1</name>
+    <actions>
+      <action type="open_display">
+        <description>Open Display</description>
+        <file>../../HeBalance/He-balance.bob</file>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text>He Balance...</text>
+    <x>90</x>
+    <y>470</y>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_29</name>
+    <text>LHE Level</text>
+    <x>110</x>
+    <y>120</y>
+    <height>30</height>
+    <font>
+      <font name="MEDIUM-SANS-BOLD" family="Source Sans Pro" style="BOLD" size="18.0">
+      </font>
+    </font>
+    <vertical_alignment>1</vertical_alignment>
+    <wrap_words>false</wrap_words>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_30</name>
+    <text>LN2 Level</text>
+    <x>110</x>
+    <y>174</y>
+    <height>30</height>
+    <font>
+      <font name="MEDIUM-SANS-BOLD" family="Source Sans Pro" style="BOLD" size="18.0">
+      </font>
+    </font>
+    <vertical_alignment>1</vertical_alignment>
+    <wrap_words>false</wrap_words>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_5</name>
+    <pv_name>Cryo-Dwr:LHe:LI5200-PercOut</pv_name>
+    <x>210</x>
+    <y>124</y>
+    <width>80</width>
+    <height>30</height>
+    <font>
+      <font name="MEDIUM-SANS-BOLD" family="Source Sans Pro" style="BOLD" size="18.0">
+      </font>
+    </font>
+    <precision>1</precision>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_13</name>
+    <pv_name>Cryo-CBox:LN2:LI3685-PercOut</pv_name>
+    <x>210</x>
+    <y>174</y>
+    <width>80</width>
+    <height>30</height>
+    <font>
+      <font name="MEDIUM-SANS-BOLD" family="Source Sans Pro" style="BOLD" size="18.0">
+      </font>
+    </font>
+    <format>1</format>
+    <precision>1</precision>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_15</name>
+    <pv_name>Cryo-Dwr:LHe:LI5200_Lt</pv_name>
+    <x>300</x>
+    <y>124</y>
+    <width>80</width>
+    <height>30</height>
+    <font>
+      <font name="MEDIUM-SANS-BOLD" family="Source Sans Pro" style="BOLD" size="18.0">
+      </font>
+    </font>
+    <precision>0</precision>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_2</name>
+    <x>91</x>
+    <y>110</y>
+    <width>309</width>
+    <height>110</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="0.0" y="106.71641791044776">
+      </point>
+      <point x="309.6192384769539" y="106.71641791044776">
+      </point>
+      <point x="309.6192384769539" y="0.0">
+      </point>
+    </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="BLACK" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+  </widget>
+  <widget type="group" version="3.0.0">
+    <name>Cryo-VisuState</name>
+    <macros>
+      <PV>Cryo-System:Operation:VisuState</PV>
+      <TITLE>Cryo Plant</TITLE>
+    </macros>
+    <x>90</x>
+    <y>30</y>
+    <width>310</width>
+    <height>80</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="multi_state_led" version="2.0.0">
+      <name>LED (Multi State)_3</name>
+      <pv_name>$(PV)</pv_name>
+      <width>311</width>
+      <height>80</height>
+      <font>
+        <font name="HUGE-MONO-BOLD" family="Source Code Pro" style="BOLD" size="36.0">
+        </font>
+      </font>
+      <square>true</square>
+      <states>
+        <state>
+          <value>3</value>
+          <label></label>
+          <color>
+            <color red="0" green="255" blue="0">
+            </color>
+          </color>
+        </state>
+        <state>
+          <value>1</value>
+          <label>                          NotRunning</label>
+          <color>
+            <color red="255" green="0" blue="0">
+            </color>
+          </color>
+        </state>
+        <state>
+          <value>2</value>
+          <label>                          Standby</label>
+          <color>
+            <color red="0" green="0" blue="255">
+            </color>
+          </color>
+        </state>
+      </states>
+      <fallback_label>                          Err</fallback_label>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_31</name>
+      <text>$(TITLE)</text>
+      <width>310</width>
+      <height>40</height>
+      <font>
+        <font name="LARGE-SANS-BOLD" family="Source Sans Pro" style="BOLD" size="21.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="WHITE" red="255" green="255" blue="255">
+        </color>
+      </foreground_color>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+      <wrap_words>false</wrap_words>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update_16</name>
+      <pv_name>$(PV)</pv_name>
+      <x>10</x>
+      <y>35</y>
+      <width>290</width>
+      <height>40</height>
+      <font>
+        <font family="Source Sans Pro" style="BOLD" size="24.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="WHITE" red="255" green="255" blue="255">
+        </color>
+      </foreground_color>
+      <transparent>true</transparent>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+      <border_alarm_sensitive>false</border_alarm_sensitive>
+    </widget>
+  </widget>
+</display>
