@@ -483,7 +483,7 @@
       <actions>
         <action type="open_display">
           <description>Open Display</description>
-          <file>../../gersemi/helper-opi-files/Liquid-insert.bob</file>
+          <file>../../hnoss/helper-opi-files/GlobOpView.bob</file>
           <target>replace</target>
         </action>
       </actions>
@@ -497,7 +497,7 @@
       <actions>
         <action type="open_display">
           <description>Open Display</description>
-          <file>../../maglps/maglps.bob</file>
+          <file>../../hnoss/ReheatSys.bob</file>
           <target>replace</target>
         </action>
       </actions>
@@ -512,7 +512,7 @@
       <actions>
         <action type="open_display">
           <description>Open Display</description>
-          <file>../../gersemi/helper-opi-files/Magnet-insert.bob</file>
+          <file>../freia-symbols/display-builder/CmdPanels/2Kpumps.bob</file>
           <target>replace</target>
         </action>
       </actions>
@@ -527,7 +527,7 @@
       <actions>
         <action type="open_display">
           <description>Open Display</description>
-          <file>../../gersemi/helper-opi-files/ReheatSys.bob</file>
+          <file>../../hnoss/helper-opi-files/PurgSys.bob</file>
           <target>replace</target>
         </action>
       </actions>
