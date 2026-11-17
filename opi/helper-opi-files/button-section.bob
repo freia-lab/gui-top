@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<display version="2.0.0">
+  <name>hnoss</name>
+  <width>540</width>
+  <height>120</height>
+  <widget type="rectangle" version="2.0.0">
+    <name>Rectangle</name>
+    <width>540</width>
+    <height>120</height>
+    <line_color>
+      <color name="BLACK" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Background" red="220" green="225" blue="221">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>Action Button</name>
+    <actions>
+      <action type="open_display">
+        <description>Open Display</description>
+        <file>../../hnoss/Hnoss-freia-top.bob</file>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text>HNOSS</text>
+    <x>20</x>
+    <y>20</y>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>Action Button_1</name>
+    <actions>
+      <action type="open_display">
+        <description>Open Display</description>
+        <file>../../iba_ssa/SSA-Main.bob</file>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text>SSA</text>
+    <x>20</x>
+    <y>70</y>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>Action Button_2</name>
+    <actions>
+      <action type="open_display">
+        <description>Open Display</description>
+        <file>../../linde/linde-freia-top.bob</file>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text>Linde</text>
+    <x>150</x>
+    <y>20</y>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>Action Button_3</name>
+    <actions>
+      <action type="open_display">
+        <description>Open Display</description>
+        <file>../../llrf/LLRF-main.bob</file>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text>LLRF</text>
+    <x>150</x>
+    <y>70</y>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>Action Button_5</name>
+    <actions>
+      <action type="open_display">
+        <description>Open Display</description>
+        <file>../../gersemi/Gersemi-freia-top.bob</file>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text>Gersemi</text>
+    <x>290</x>
+    <y>20</y>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>Action Button_6</name>
+    <actions>
+      <action type="open_display">
+        <description>Open Display</description>
+        <file>../../interlocks/Interlocks_top.bob</file>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text>Interlocks</text>
+    <x>290</x>
+    <y>70</y>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>Action Button_7</name>
+    <actions>
+      <action type="open_display">
+        <description>Open Display</description>
+        <file>../../HeBalance/He-balance.bob</file>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text>He Balance</text>
+    <x>420</x>
+    <y>20</y>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>Action Button_8</name>
+    <actions>
+      <action type="open_display">
+        <description>Open Display</description>
+        <file>../../cryomodule/CM_main.bob</file>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text>CM </text>
+    <x>420</x>
+    <y>70</y>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+</display>

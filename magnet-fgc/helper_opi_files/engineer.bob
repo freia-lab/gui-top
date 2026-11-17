@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Saved on 2023-08-21 09:26:14 by konrad-->
+<display version="2.0.0">
+  <name>Engineer</name>
+  <width>1700</width>
+  <height>970</height>
+  <widget type="group" version="2.0.0">
+    <name>Group</name>
+    <macros>
+      <D>RCH1</D>
+    </macros>
+    <x>20</x>
+    <y>10</y>
+    <width>821</width>
+    <height>462</height>
+    <style>2</style>
+    <transparent>true</transparent>
+    <widget type="label" version="2.0.0">
+      <name>Label</name>
+      <text>$(D)</text>
+      <x>10</x>
+      <y>10</y>
+      <height>50</height>
+      <font>
+        <font name="HEADER" family="Source Sans Pro" style="BOLD_ITALIC" size="36.0">
+        </font>
+      </font>
+    </widget>
+    <widget type="embedded" version="2.0.0">
+      <name>Embedded Display</name>
+      <file>engineer-1fgc.bob</file>
+      <x>10</x>
+      <y>70</y>
+      <width>800</width>
+      <height>390</height>
+    </widget>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>Group_1</name>
+    <macros>
+      <D>RCH2</D>
+    </macros>
+    <x>20</x>
+    <y>480</y>
+    <width>821</width>
+    <height>462</height>
+    <style>2</style>
+    <transparent>true</transparent>
+    <widget type="label" version="2.0.0">
+      <name>Label_1</name>
+      <text>$(D)</text>
+      <x>10</x>
+      <y>10</y>
+      <height>50</height>
+      <font>
+        <font name="HEADER" family="Source Sans Pro" style="BOLD_ITALIC" size="36.0">
+        </font>
+      </font>
+    </widget>
+    <widget type="embedded" version="2.0.0">
+      <name>Embedded Display_1</name>
+      <file>engineer-1fgc.bob</file>
+      <x>10</x>
+      <y>70</y>
+      <width>800</width>
+      <height>390</height>
+    </widget>
+  </widget>
+  <widget type="tabs" version="2.0.0">
+    <name>Tabs</name>
+    <macros>
+      <SIG>FGCstartUp</SIG>
+    </macros>
+    <tabs>
+      <tab>
+        <name>RCH1</name>
+        <children>
+          <widget type="embedded" version="2.0.0">
+            <name>Embedded Display_2</name>
+            <macros>
+              <D>RCH1</D>
+            </macros>
+            <file>startUp-ctrl-panel.bob</file>
+            <width>800</width>
+            <height>652</height>
+          </widget>
+        </children>
+      </tab>
+      <tab>
+        <name>RCH2</name>
+        <children>
+          <widget type="embedded" version="2.0.0">
+            <name>Embedded Display_4</name>
+            <macros>
+              <D>RCH2</D>
+            </macros>
+            <file>startUp-ctrl-panel.bob</file>
+            <width>800</width>
+            <height>610</height>
+          </widget>
+        </children>
+      </tab>
+    </tabs>
+    <x>860</x>
+    <y>150</y>
+    <width>840</width>
+    <height>660</height>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>Action Button</name>
+    <actions>
+      <action type="open_display">
+        <file>../../freia-symbols/display-builder/asyn/asynRecord.bob</file>
+        <macros>
+          <P>ioc01-fgc</P>
+          <R>:asynRec</R>
+        </macros>
+        <target>window</target>
+        <description>AsynRec...</description>
+      </action>
+    </actions>
+    <x>1530</x>
+    <y>900</y>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+</display>

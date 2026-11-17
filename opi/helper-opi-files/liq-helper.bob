@@ -1,38 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <display version="2.0.0">
-  <widget type="action_button" version="3.0.0">
-    <name>Action Button</name>
-    <actions>
-      <action type="open_display">
-        <description>Open Display</description>
-        <file>../../linde/linde-freia-top.bob</file>
-        <target>tab</target>
-      </action>
-    </actions>
-    <text>Liqufier...</text>
-    <x>90</x>
-    <y>430</y>
-    <tooltip>$(actions)</tooltip>
-  </widget>
-  <widget type="action_button" version="3.0.0">
-    <name>Action Button_1</name>
-    <actions>
-      <action type="open_display">
-        <description>Open Display</description>
-        <file>../../HeBalance/He-balance.bob</file>
-        <target>tab</target>
-      </action>
-    </actions>
-    <text>He Balance...</text>
-    <x>90</x>
-    <y>470</y>
-    <tooltip>$(actions)</tooltip>
-  </widget>
+  <width>310</width>
+  <height>190</height>
   <widget type="label" version="2.0.0">
     <name>Label_29</name>
     <text>LHE Level</text>
-    <x>110</x>
-    <y>120</y>
+    <x>20</x>
+    <y>90</y>
     <height>30</height>
     <font>
       <font name="MEDIUM-SANS-BOLD" family="Source Sans Pro" style="BOLD" size="18.0">
@@ -44,8 +18,8 @@
   <widget type="label" version="2.0.0">
     <name>Label_30</name>
     <text>LN2 Level</text>
-    <x>110</x>
-    <y>174</y>
+    <x>20</x>
+    <y>144</y>
     <height>30</height>
     <font>
       <font name="MEDIUM-SANS-BOLD" family="Source Sans Pro" style="BOLD" size="18.0">
@@ -57,8 +31,8 @@
   <widget type="textupdate" version="2.0.0">
     <name>Text Update_5</name>
     <pv_name>Cryo-Dwr:LHe:LI5200-PercOut</pv_name>
-    <x>210</x>
-    <y>124</y>
+    <x>120</x>
+    <y>94</y>
     <width>80</width>
     <height>30</height>
     <font>
@@ -72,8 +46,8 @@
   <widget type="textupdate" version="2.0.0">
     <name>Text Update_13</name>
     <pv_name>Cryo-CBox:LN2:LI3685-PercOut</pv_name>
-    <x>210</x>
-    <y>174</y>
+    <x>120</x>
+    <y>144</y>
     <width>80</width>
     <height>30</height>
     <font>
@@ -88,8 +62,8 @@
   <widget type="textupdate" version="2.0.0">
     <name>Text Update_15</name>
     <pv_name>Cryo-Dwr:LHe:LI5200_Lt</pv_name>
-    <x>300</x>
-    <y>124</y>
+    <x>210</x>
+    <y>94</y>
     <width>80</width>
     <height>30</height>
     <font>
@@ -102,8 +76,8 @@
   </widget>
   <widget type="polyline" version="2.0.0">
     <name>Polyline_2</name>
-    <x>91</x>
-    <y>110</y>
+    <x>1</x>
+    <y>80</y>
     <width>309</width>
     <height>110</height>
     <points>
@@ -128,8 +102,6 @@
       <PV>Cryo-System:Operation:VisuState</PV>
       <TITLE>Cryo Plant</TITLE>
     </macros>
-    <x>90</x>
-    <y>30</y>
     <width>310</width>
     <height>80</height>
     <style>3</style>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Saved on 2023-05-24 15:16:40 by konrad-->
+<display version="2.0.0">
+  <name>mask and delay</name>
+  <height>30</height>
+  <widget type="textentry" version="3.0.0">
+    <name>Text Entry_4</name>
+    <pv_name>$(PREFIX):Seq-finish.DLY$(N)</pv_name>
+    <x>100</x>
+    <y>5</y>
+    <width>50</width>
+    <format>1</format>
+    <precision>1</precision>
+    <show_units>false</show_units>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update</name>
+    <pv_name>$(PREFIX):Seq-finish.LNK$(N)</pv_name>
+    <x>280</x>
+    <y>5</y>
+    <width>350</width>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label</name>
+    <text>Command: </text>
+    <x>190</x>
+    <y>5</y>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textentry" version="3.0.0">
+    <name>Text Update_1</name>
+    <pv_name>$(PREFIX):Seq-finish.DO$(N)</pv_name>
+    <x>650</x>
+    <y>5</y>
+    <precision>3</precision>
+    <vertical_alignment>0</vertical_alignment>
+    <wrap_words>true</wrap_words>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_1</name>
+    <text>Step $(N)</text>
+    <y>5</y>
+  </widget>
+</display>

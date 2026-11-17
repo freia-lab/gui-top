@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<display version="2.0.0">
+  <width>255</width>
+  <height>484</height>
+  <widget type="group" version="3.0.0">
+    <name>   Gasbag</name>
+    <y>30</y>
+    <width>250</width>
+    <height>140</height>
+    <style>1</style>
+    <font>
+      <font family="Source Sans Pro" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="BLACK-TEXT" red="255" green="255" blue="255">
+      </color>
+    </foreground_color>
+    <line_color>
+      <color red="51" green="150" blue="150">
+      </color>
+    </line_color>
+    <transparent>true</transparent>
+    <widget type="label" version="2.0.0">
+      <name>Label_181</name>
+      <text>Lidar distance</text>
+      <x>10</x>
+      <y>10</y>
+      <width>80</width>
+      <font>
+        <font family="Source Sans Pro" style="REGULAR" size="12.0">
+        </font>
+      </font>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update_151</name>
+      <pv_name>Cryo-Rec:LP:GasBagLidar</pv_name>
+      <x>110</x>
+      <y>10</y>
+      <font>
+        <font family="Source Sans Pro" style="REGULAR" size="12.0">
+        </font>
+      </font>
+      <precision>1</precision>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_182</name>
+      <text>Rate</text>
+      <x>10</x>
+      <y>35</y>
+      <width>80</width>
+      <font>
+        <font family="Source Sans Pro" style="REGULAR" size="12.0">
+        </font>
+      </font>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_183</name>
+      <text>Level</text>
+      <x>10</x>
+      <y>60</y>
+      <width>80</width>
+      <font>
+        <font family="Source Sans Pro" style="REGULAR" size="12.0">
+        </font>
+      </font>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update_152</name>
+      <pv_name>Cryo-Rec:LP:BalloonLevel</pv_name>
+      <x>110</x>
+      <y>60</y>
+      <font>
+        <font family="Source Sans Pro" style="REGULAR" size="12.0">
+        </font>
+      </font>
+      <precision>1</precision>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update_153</name>
+      <pv_name>Cryo-Rec:LP:GasBagLidar-rate</pv_name>
+      <x>110</x>
+      <y>35</y>
+      <font>
+        <font family="Source Sans Pro" style="REGULAR" size="12.0">
+        </font>
+      </font>
+      <precision>1</precision>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_184</name>
+      <text>Impurity</text>
+      <x>10</x>
+      <y>85</y>
+      <width>80</width>
+      <font>
+        <font family="Source Sans Pro" style="REGULAR" size="12.0">
+        </font>
+      </font>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update_154</name>
+      <pv_name>Cryo-Rec:LP:QI7210</pv_name>
+      <x>110</x>
+      <y>85</y>
+      <font>
+        <font family="Source Sans Pro" style="REGULAR" size="12.0">
+        </font>
+      </font>
+      <precision>1</precision>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_207</name>
+    <text>Gasbag</text>
+    <x>83</x>
+    <height>120</height>
+    <font>
+      <font name="Header 2" family="Source Sans Pro" style="BOLD_ITALIC" size="21.0">
+      </font>
+    </font>
+  </widget>
+  <widget type="group" version="3.0.0">
+    <name>   LN2 Tank</name>
+    <x>71</x>
+    <y>200</y>
+    <width>72</width>
+    <height>214</height>
+    <style>1</style>
+    <font>
+      <font family="Source Sans Pro" style="REGULAR" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="BLACK-TEXT" red="255" green="255" blue="255">
+      </color>
+    </foreground_color>
+    <line_color>
+      <color red="51" green="150" blue="150">
+      </color>
+    </line_color>
+    <transparent>true</transparent>
+    <widget type="tank" version="2.0.0">
+      <name>Tank_2</name>
+      <pv_name>Cryo-CBox:LN2:LI3685-PercOut</pv_name>
+      <x>10</x>
+      <y>10</y>
+      <width>50</width>
+      <height>140</height>
+      <scale_visible>false</scale_visible>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update_155</name>
+      <pv_name>Cryo-CBox:LN2:LI3685-PercOut</pv_name>
+      <x>10</x>
+      <y>162</y>
+      <width>50</width>
+      <font>
+        <font family="Source Sans Pro" style="REGULAR" size="12.0">
+        </font>
+      </font>
+      <precision>1</precision>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_212</name>
+    <text>LN2</text>
+    <x>81</x>
+    <y>170</y>
+    <width>61</width>
+    <height>40</height>
+    <font>
+      <font name="Header 2" family="Source Sans Pro" style="BOLD_ITALIC" size="21.0">
+      </font>
+    </font>
+  </widget>
+  <widget type="group" version="3.0.0">
+    <name>   LN2 Tank_1</name>
+    <y>200</y>
+    <width>72</width>
+    <height>214</height>
+    <style>1</style>
+    <font>
+      <font family="Source Sans Pro" style="REGULAR" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="BLACK-TEXT" red="255" green="255" blue="255">
+      </color>
+    </foreground_color>
+    <line_color>
+      <color red="51" green="150" blue="150">
+      </color>
+    </line_color>
+    <transparent>true</transparent>
+    <widget type="tank" version="2.0.0">
+      <name>Tank_3</name>
+      <pv_name>CstatH-Cryo:LHe:LI5200-PercOut</pv_name>
+      <x>10</x>
+      <y>10</y>
+      <width>50</width>
+      <height>140</height>
+      <scale_visible>false</scale_visible>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update_156</name>
+      <pv_name>CstatH-Cryo:LHe:LI5200-PercOut</pv_name>
+      <x>10</x>
+      <y>162</y>
+      <width>50</width>
+      <font>
+        <font family="Source Sans Pro" style="REGULAR" size="12.0">
+        </font>
+      </font>
+      <precision>1</precision>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_213</name>
+    <text>LHe</text>
+    <x>10</x>
+    <y>170</y>
+    <width>61</width>
+    <height>40</height>
+    <font>
+      <font name="Header 2" family="Source Sans Pro" style="BOLD_ITALIC" size="21.0">
+      </font>
+    </font>
+  </widget>
+</display>
