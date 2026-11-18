@@ -1,6 +1,6 @@
 #!/bin/bash
 
-OPI_VERSION=0.1.0
+OPI_VERSION=0.2.0
 
 OPIS_HOME=/opt/epics/OPIS
 OPI_DIR=/opt/epics/opi/bob
