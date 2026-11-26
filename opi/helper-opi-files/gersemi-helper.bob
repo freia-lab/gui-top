@@ -62,7 +62,7 @@
         <action type="open_display">
           <description>Open Display</description>
           <file>../../gersemi/helper-opi-files/Liquid-insert.bob</file>
-          <target>replace</target>
+          <target>tab</target>
         </action>
       </actions>
       <text>Liquid Insert</text>
@@ -76,27 +76,12 @@
         <action type="open_display">
           <description>Open Display</description>
           <file>../../magnet-fgc/FGC-top.bob</file>
-          <target>replace</target>
+          <target>tab</target>
         </action>
       </actions>
       <text>MAG FGC</text>
-      <y>62</y>
-      <width>127</width>
-      <tooltip>$(actions)</tooltip>
-    </widget>
-    <widget type="action_button" version="3.0.0">
-      <name>Action Button_6</name>
-      <actions>
-        <action type="open_display">
-          <description>Open Display</description>
-          <file>../../gersemi/helper-opi-files/LiquidN2.bob</file>
-          <target>replace</target>
-        </action>
-      </actions>
-      <text>Liquid Nitrogen </text>
-      <x>127</x>
-      <y>62</y>
-      <width>122</width>
+      <y>32</y>
+      <width>128</width>
       <tooltip>$(actions)</tooltip>
     </widget>
     <widget type="action_button" version="3.0.0">
@@ -105,7 +90,7 @@
         <action type="open_display">
           <description>Open Display</description>
           <file>../../maglps/maglps.bob</file>
-          <target>replace</target>
+          <target>tab</target>
         </action>
       </actions>
       <text>MAG LPS</text>
@@ -120,7 +105,7 @@
         <action type="open_display">
           <description>Open Display</description>
           <file>../../gersemi/helper-opi-files/Magnet-insert.bob</file>
-          <target>replace</target>
+          <target>tab</target>
         </action>
       </actions>
       <text>Magnet Insert</text>
@@ -135,12 +120,27 @@
         <action type="open_display">
           <description>Open Display</description>
           <file>../../gersemi/helper-opi-files/ReheatSys.bob</file>
-          <target>replace</target>
+          <target>tab</target>
         </action>
       </actions>
       <text>He P&amp;R</text>
-      <y>32</y>
+      <y>62</y>
       <width>128</width>
+      <tooltip>$(actions)</tooltip>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>Action Button_6</name>
+      <actions>
+        <action type="open_display">
+          <description>Open Display</description>
+          <file>../../gersemi/helper-opi-files/LiquidN2.bob</file>
+          <target>tab</target>
+        </action>
+      </actions>
+      <text>Liquid Nitrogen </text>
+      <x>127</x>
+      <y>62</y>
+      <width>122</width>
       <tooltip>$(actions)</tooltip>
     </widget>
   </widget>
@@ -264,7 +264,7 @@
     </widget>
     <widget type="textupdate" version="2.0.0">
       <name>Text Update_16</name>
-      <pv_name>CstatV-Ctrl:LiqIns:sProcInpCstatV-Ctrl:MagIns:sProcInp</pv_name>
+      <pv_name>CstatV-Ctrl:SQ:VisuState</pv_name>
       <x>10</x>
       <y>35</y>
       <width>290</width>
@@ -365,7 +365,7 @@
       <x>16</x>
       <y>7</y>
       <font>
-        <font family="Source Sans Pro" style="REGULAR" size="12.0">
+        <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
       </font>
     </widget>
@@ -401,7 +401,7 @@
       <x>16</x>
       <y>26</y>
       <font>
-        <font family="Source Sans Pro" style="REGULAR" size="12.0">
+        <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
       </font>
     </widget>
@@ -432,7 +432,7 @@
       <x>16</x>
       <y>7</y>
       <font>
-        <font family="Source Sans Pro" style="REGULAR" size="12.0">
+        <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
       </font>
     </widget>
@@ -468,7 +468,7 @@
       <x>16</x>
       <y>26</y>
       <font>
-        <font family="Source Sans Pro" style="REGULAR" size="12.0">
+        <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
       </font>
     </widget>

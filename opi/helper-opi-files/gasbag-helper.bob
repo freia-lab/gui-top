@@ -158,6 +158,10 @@
       <y>10</y>
       <width>50</width>
       <height>140</height>
+      <fill_color>
+        <color red="255" green="153" blue="0">
+        </color>
+      </fill_color>
       <scale_visible>false</scale_visible>
     </widget>
     <widget type="textupdate" version="2.0.0">

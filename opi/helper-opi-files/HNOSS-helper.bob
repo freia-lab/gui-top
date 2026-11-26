@@ -339,7 +339,7 @@
       <x>10</x>
       <y>10</y>
       <font>
-        <font family="Source Sans Pro" style="REGULAR" size="12.0">
+        <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
       </font>
     </widget>
@@ -349,7 +349,7 @@
       <x>10</x>
       <y>35</y>
       <font>
-        <font family="Source Sans Pro" style="REGULAR" size="12.0">
+        <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
       </font>
     </widget>
@@ -413,21 +413,21 @@
     <transparent>true</transparent>
     <widget type="label" version="2.0.0">
       <name>Label_201</name>
-      <text>2k</text>
+      <text>2K</text>
       <x>10</x>
       <y>10</y>
       <font>
-        <font family="Source Sans Pro" style="REGULAR" size="12.0">
+        <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
       </font>
     </widget>
     <widget type="label" version="2.0.0">
       <name>Label_202</name>
-      <text>4k</text>
+      <text>4K</text>
       <x>10</x>
       <y>35</y>
       <font>
-        <font family="Source Sans Pro" style="REGULAR" size="12.0">
+        <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
       </font>
     </widget>
@@ -484,7 +484,7 @@
         <action type="open_display">
           <description>Open Display</description>
           <file>../../hnoss/helper-opi-files/GlobOpView.bob</file>
-          <target>replace</target>
+          <target>tab</target>
         </action>
       </actions>
       <text>Global View</text>
@@ -497,8 +497,8 @@
       <actions>
         <action type="open_display">
           <description>Open Display</description>
-          <file>../../hnoss/ReheatSys.bob</file>
-          <target>replace</target>
+          <file>../../hnoss/helper-opi-files/ReheatSys.bob</file>
+          <target>tab</target>
         </action>
       </actions>
       <text>He P&amp;R</text>
@@ -513,7 +513,7 @@
         <action type="open_display">
           <description>Open Display</description>
           <file>../freia-symbols/display-builder/CmdPanels/2Kpumps.bob</file>
-          <target>replace</target>
+          <target>tab</target>
         </action>
       </actions>
       <text>2K Pumps</text>
@@ -528,7 +528,7 @@
         <action type="open_display">
           <description>Open Display</description>
           <file>../../hnoss/helper-opi-files/PurgSys.bob</file>
-          <target>replace</target>
+          <target>tab</target>
         </action>
       </actions>
       <text>Purging</text>
@@ -563,7 +563,7 @@
       <x>9</x>
       <y>63</y>
       <font>
-        <font family="Source Sans Pro" style="REGULAR" size="12.0">
+        <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
       </font>
     </widget>
@@ -573,7 +573,7 @@
       <x>9</x>
       <y>43</y>
       <font>
-        <font family="Source Sans Pro" style="REGULAR" size="12.0">
+        <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
       </font>
     </widget>
@@ -622,7 +622,7 @@
       <x>9</x>
       <y>13</y>
       <font>
-        <font family="Source Sans Pro" style="REGULAR" size="12.0">
+        <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
       </font>
     </widget>
@@ -665,7 +665,7 @@
       <x>9</x>
       <y>63</y>
       <font>
-        <font family="Source Sans Pro" style="REGULAR" size="12.0">
+        <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
       </font>
     </widget>
@@ -675,7 +675,7 @@
       <x>9</x>
       <y>43</y>
       <font>
-        <font family="Source Sans Pro" style="REGULAR" size="12.0">
+        <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
       </font>
     </widget>
@@ -724,7 +724,7 @@
       <x>9</x>
       <y>13</y>
       <font>
-        <font family="Source Sans Pro" style="REGULAR" size="12.0">
+        <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
       </font>
     </widget>
@@ -755,7 +755,7 @@
       <x>9</x>
       <y>63</y>
       <font>
-        <font family="Source Sans Pro" style="REGULAR" size="12.0">
+        <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
       </font>
     </widget>
@@ -765,7 +765,7 @@
       <x>9</x>
       <y>13</y>
       <font>
-        <font family="Source Sans Pro" style="REGULAR" size="12.0">
+        <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
       </font>
     </widget>
@@ -814,7 +814,7 @@
       <x>10</x>
       <y>43</y>
       <font>
-        <font family="Source Sans Pro" style="REGULAR" size="12.0">
+        <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
       </font>
     </widget>

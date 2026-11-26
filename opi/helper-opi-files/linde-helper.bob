@@ -62,7 +62,7 @@
       <x>16</x>
       <y>7</y>
       <font>
-        <font family="Source Sans Pro" style="REGULAR" size="12.0">
+        <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
       </font>
     </widget>
@@ -98,7 +98,7 @@
       <x>16</x>
       <y>26</y>
       <font>
-        <font family="Source Sans Pro" style="REGULAR" size="12.0">
+        <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
       </font>
     </widget>
@@ -129,7 +129,7 @@
         <action type="open_display">
           <description>Open Display</description>
           <file>../../linde/helper-opi-files/CompPopUp.bob</file>
-          <target>replace</target>
+          <target>tab</target>
         </action>
       </actions>
       <text>Compressor OPI</text>
@@ -143,12 +143,12 @@
         <action type="open_display">
           <description>Open Display</description>
           <file>../../linde/helper-opi-files/Warnings.bob</file>
-          <target>replace</target>
+          <target>tab</target>
         </action>
       </actions>
       <text>Warnings OPI</text>
       <y>62</y>
-      <width>127</width>
+      <width>128</width>
       <tooltip>$(actions)</tooltip>
     </widget>
     <widget type="action_button" version="3.0.0">
@@ -157,7 +157,7 @@
         <action type="open_display">
           <description>Open Display</description>
           <file>../../linde/helper-opi-files/TripsAndAlarms.bob</file>
-          <target>replace</target>
+          <target>tab</target>
         </action>
       </actions>
       <text>Trips &amp; Alarms</text>
@@ -172,7 +172,7 @@
         <action type="open_display">
           <description>Open Display</description>
           <file>../../linde/helper-opi-files/linde-StartStop.bob</file>
-          <target>replace</target>
+          <target>tab</target>
         </action>
       </actions>
       <text>Modes</text>
@@ -187,7 +187,7 @@
         <action type="open_display">
           <description>Open Display</description>
           <file>../../linde/helper-opi-files/ColdModePopUp.bob</file>
-          <target>replace</target>
+          <target>tab</target>
         </action>
       </actions>
       <text>ColdMode OPI</text>
@@ -202,7 +202,7 @@
         <action type="open_display">
           <description>Open Display</description>
           <file>../../linde/helper-opi-files/PurPopUp.bob</file>
-          <target>replace</target>
+          <target>tab</target>
         </action>
       </actions>
       <text>Purifier OPI</text>
